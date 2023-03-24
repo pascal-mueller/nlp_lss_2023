@@ -1,0 +1,54 @@
+arXiv:1603.07252v3 [cs.CL] 1 Jul 2016
+
+Neural Summarization by Extracting Sentences and Words
+
+Jianpeng Cheng Mirella Lapata
+TLCC, School of Informatics, University of Edinburgh
+10 Crichton Street, Edinburgh EH8 9AB
+
+jianpeng. chengged.ac.uk mlap@inf.ed.ac.uk
+
+Abstract
+
+propose a data-driven approach based on
+neural networks and continuous sentence
+features. We develop a general frame-
+work for single-document summarization
+composed of a hierarchical document
+encoder and an attention-based extractor.
+This architecture allows us to develop
+different classes of summarization models
+‘which can extract sentences or words. We
+train our models on large scale corpora
+containing hundreds of thousands of
+document-summary pairs'. Experimental
+results on two summarization datasets
+demonstrate that our models obtain results
+comparable to the state of the art without
+
+into a list of continuot
+it 10 Hognldinargtinis quence into a list of continuous-space represent
+
+tions from wi
+1 Introduction
+
+The need to access and digest large amounts of
+textual data has provided strong impetus to de-  We develop a general framework for single-
+
+velop automtic Summarization sysems &ming £ document summarization which can be used o
+create shorter versions of one or more documents,
+
+whilst preserving their information content. Much
+effort in automatic summarization has been de-
+voted to sentence extraction, where a summary is
+created by identifying and subsequently concate-  meaning representation ofa document based on s
+nating the most salient text units in a document.  gentences and their constituent words. Our models
+
+Most _ extractive n adopt a variant of neural attention to ex
+sentences based on "
+
+of the input document as the output summary.
+
+‘Similar neural attention architectures have been
+previously used for “
+AL, 2015)under the :
